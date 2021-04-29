@@ -1,4 +1,6 @@
-# MongoDB Pipeline Script
+#!/usr/bin/env python
+# test comment
+import pymongo
 from pymongo import MongoClient
 myclient = MongoClient('172.17.0.2',27017)
 mydb = myclient["mauricedb"]
