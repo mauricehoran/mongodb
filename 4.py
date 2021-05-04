@@ -6,6 +6,7 @@ mycoll = mydb["mhcoll"]
 # Delete
 mycoll.delete_one({'Position': 'Forward'})
 mycoll.delete_one({'Position': 'Goalkeeper'})
+mycoll.delete_one({'Position': 'Goalie'})
 mycoll.delete_one({'Position': 'Defender'})
 mycoll.delete_one({'age': '29'})
 mycoll.delete_one({'age': '30'})
