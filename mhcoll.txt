@@ -1,2 +1,8 @@
-# Date May 5th - Players updated
-# May 5th 4pm - List updated
+#########################################
+#           Changelog                   #
+#########################################
+#
+# May 1st - Player document updated
+# May 3rd - List updated
+# May 4th - Players removed
+# May 5th - Player list updated
