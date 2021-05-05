@@ -4,14 +4,12 @@ mydb = myclient["mauricedb"]
 mycoll = mydb["mhcoll"]
 
 # Put
-def add_player(name, age, position):
-        document = {
-                'Name': name,
-                'Age': age,
-                'Position': position
-        }
-        print("###", name, " has been added ###")
-        return mycoll.insert_one(document)
+def add_playr(position, age, name):
+	document = {
+		'Position': position,
+		'Age': age,
+		'Name': name
+	}
+	return mycoll.insert_one(document)
+player = add_playr('Midfielder', '22', 'Seamus Fleming')
 
-player = add_player("Timmy Horan", '32', 'Forward')
-print()

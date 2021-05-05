@@ -4,7 +4,7 @@ mydb = myclient["mauricedb"]
 mycoll = mydb["mhcoll"]
 
 # Delete
-mycoll.delete_one({'Position': 'Forward'})
+mycoll.delete_many({'Position': 'Forward'})
 for result in mycoll.find():
         print(result)
 print()

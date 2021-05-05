@@ -4,7 +4,6 @@ mydb = myclient["mauricedb"]
 mycoll = mydb["mhcoll"]
 
 # Get
-print("### All entries in the collection ###")
 for result in mycoll.find():
         print(result)
 print()
